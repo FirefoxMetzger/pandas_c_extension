@@ -50,4 +50,5 @@ pure python or naive numpy implementations. To visualize this, you can use the
 provided `benchmark.py` that measures the runtime for various sequence lengths.
 
 ![Benchmark results](_images/result.png)
+
 (Run on a AMD Ryzen 7 5800X 8-Core Processor)
