@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "local"
+version = "0.1.0"
+description = "A pandas extension that is implemented in C!"
+authors = ["Sebastian Wallkötter <sebastian@wallkoetter.net>"]
+license = "BSD 3-clause"
+readme = "README.md"
+build = "build.py"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.12"
+pandas = "^1.5.2"
+matplotlib = "^3.6.3"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.12.0"
+hypothesis = "^6.62.1"
+pytest = "^7.2.1"
+
+[build-system]
+requires = ["poetry-core", "setuptools", "numpy"]
+build-backend = "poetry.core.masonry.api"
