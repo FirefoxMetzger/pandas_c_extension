@@ -98,7 +98,7 @@ static PyObject *sample_entropy(PyObject *self, PyObject *args)
 }
 
 static PyMethodDef Transformers[] = {
-    {"sample_entropy", sample_entropy, METH_VARARGS, "Hello World."},
+    {"sample_entropy", sample_entropy, METH_VARARGS, "Calculate Sample Entropy."},
     {NULL, NULL, 0, NULL} /* End of module attributes */
 };
 
